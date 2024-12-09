@@ -1,0 +1,112 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw 2vw;
+}
+header ul{
+    display: flex;
+}
+header div{
+    display: flex;
+    align-items: center;
+}
+header ul li{
+    margin: 0 2vw;
+    padding: 1vw;
+}
+
+header ul.dois li:first-child a{
+    color: #FBBC05;
+}
+header ul.dois li:last-child a{
+    background-color: #FBBC05;
+    color: white;
+    padding: 1vw;
+    border-radius: 2vw;
+}
+#hero{
+    
+    background:  url(../img/Hero.png) no-repeat  ;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+#hero .Smooth{
+    padding: 10vw 7vw;
+}
+
+.Smooth h2{
+    font-size: 3vw;
+     font-family: sans-serif;
+}
+
+.Smooth p{
+    font-size: 0.8vw;
+    color: #6b6b6b;
+    font-family: sans-serif;
+    margin: 2vw 0;
+}
+.Smooth a{
+    background-color: black;
+    border-radius: 1vw;
+    color: white;
+    padding: 1vw 2vw;
+    font-size: 1.5vw;
+}
+.Smooth a:last-child{
+    margin-left: 2vw;
+}
+#ready h2{
+    text-align: center;
+    font-size: 3vw;
+    font-family: sans-serif;
+}
+#ready p{
+    text-align: center;
+    font-size: 0.9;
+    color: #c4c4c4;
+    font-family: sans-serif;
+}
+#ready .ride{
+    display: flex;
+    justify-content: space-between;
+    padding: 5vw 10vw;
+}
+
+#ready .ride .projects ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+#ready .ride .projects ul li{
+    width: 40%    
+}
+#ready .ride .projects ul li span{
+    background-color: rgb(218, 207, 243);
+    padding: 1vw;
+    border-radius: 1vw;
+    font-size: 1.5vw;
+    color: #FBBC05;
+}
+#ready .ride .projects ul li p{
+    font-size: 0.8vw;
+    text-align: left;
+    font-family: sans-serif;
+}
+#ready .ride .projects ul li h3{
+    font-family: sans-serif;
+    margin: 1vw 0;
+    font-size: 1.5vw;
+}
+#ready .ride .projects ul li:last-child{
+    margin-top: 5vw;
+} 
+
+#download{
+    width: 75%;
+    height: 20vw;
+    margin: 0 auto 3vw auto;
+    border-radius:3vw ;
+    background: #FBBC05 ;
+}
